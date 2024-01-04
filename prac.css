@@ -1,0 +1,106 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.crow{
+    background-image: url(./shan_cow.jpg);
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(0 1%, 100% 0, 99% 78%, 47% 100%, 51% 100%, 2% 81%);
+}
+.crow h1{
+    color: gray;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.article{
+    width: 80%;
+    /*margin-left: 100px;
+    margin-top: 60px;
+     margin-bottom: 60px; */
+     margin: 60px auto;
+     border-width: 15px;
+     border-color: yellow;
+     border-style: solid;
+     background-color: aqua;
+     padding: 60px;
+     
+}
+.article h2{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    border-width: 15px;
+    border-color: brown;
+    border-style: dotted;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px;
+    margin: 10px;
+}
+.article p{
+    font-size: 20px;
+    line-height: 2em;
+    
+}
+.article p .imp{
+    font-size: 30px;
+    font-weight: bold;
+    color:green;
+    background-color: yellow;
+}
+.main{
+    background: linear-gradient(pink,blue);
+}
+.main h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(221, 40, 40);
+    font-weight: bold;
+    font-style: italic;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+.cow1{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap; 
+    /*site zoom in and out krlle tkn pic move hbe*/
+    justify-content: center;
+    background: linear-gradient(pink, blue);
+}
+.cow1 div{
+    width: 300px;
+    min-height: 300px;
+}
+.cow1 img{
+    width: 100%;
+    height: 100%;
+}
